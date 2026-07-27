@@ -1,0 +1,63 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="HD0Cw-9Iaa4d5VLqSh5r">
+    <mxGraphModel dx="680" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;CODESYS Runtime&lt;/div&gt;&lt;div&gt;Máquina simulada&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-2" edge="1" parent="1" source="4b5bTA6Egz-2wRuNJTVM-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="190" as="sourcePoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-3" connectable="0" parent="4b5bTA6Egz-2wRuNJTVM-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Modbus TCP&lt;/div&gt;&lt;div&gt;Porta 502&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1143" y="-5" as="geometry">
+            <mxPoint x="-55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Aplicação Python&lt;/div&gt;&lt;div&gt;Cliente Modbus&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-5" edge="1" parent="1" source="4b5bTA6Egz-2wRuNJTVM-4" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="330" as="sourcePoint" />
+            <mxPoint x="330" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="360" as="sourcePoint" />
+            <mxPoint x="330" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="324" y="360" as="sourcePoint" />
+            <mxPoint x="414" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="360" as="sourcePoint" />
+            <mxPoint x="240" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="413" y="360" as="sourcePoint" />
+            <mxPoint x="413" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terminal" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5bTA6Egz-2wRuNJTVM-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Arquivo CSV" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
