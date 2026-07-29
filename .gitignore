@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Dados gerados durante a execução
+data/machine_history.csv
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Configurações locais
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
